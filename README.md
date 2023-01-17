@@ -89,6 +89,11 @@ Without masking, random pick the object in interest composed of edges, sharpen a
 
 #### Target object seekings ####
 
-Sample from previous project, automatic detection VDO using few convolution layers.
+Without masking, random pick the object in interest composed of edges, sharpen angles and locations. There are many objects consider input masking or traning for consider object with criteria from the same data input is ```cell left```, ```right```, ```up```, and ```down``` as in the edges detection matrixes.
 
 ![Figure 10](https://github.com/jkaewprateep/Objects_edges_detection_wide_screen/blob/main/Figure_10.png "Figure 10")
+
+Sample from previous project, automatic detection VDO using few convolution layers.
+
+![GIF 1](https://github.com/jkaewprateep/Objects_edges_detection_wide_screen/blob/main/bandicam%202022-12-17%2011-31-54-783.gif "GIF 1")
+
