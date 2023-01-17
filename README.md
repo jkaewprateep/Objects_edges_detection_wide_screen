@@ -58,6 +58,8 @@ plt.imshow( tf.keras.utils.array_to_img( tf.squeeze( conv_image_2 ) ) )
 plt.show()
 ```
 
+## Files and Directory ##
+
 | File name | Description |
 | --- | --- |
 | Figure_1.png | image scan regions |
@@ -71,14 +73,22 @@ plt.show()
 
 ## Result ##
 
+Image selected object from those in objects in the picture with contrastiveness consider.
+
 #### Cell density and distance ####
+
+Without masking, random pick the object in interest composed of edges, sharpen angles and locations.
 
 ![Figure 7](https://github.com/jkaewprateep/Objects_edges_detection_wide_screen/blob/main/Figure_7.png "Figure 7")
 
 #### Multiple objects edges randomness ####
 
+Without masking, random pick the object in interest composed of edges, sharpen angles and locations. There are many objects consider input masking or traning for consider object with criteria from the same data input is ```cell left```, ```right```, ```up```, and ```down``` as in the edges detection matrixes.
+
 ![Figure 8](https://github.com/jkaewprateep/Objects_edges_detection_wide_screen/blob/main/Figure_8.png "Figure 8")
 
 #### Target object seekings ####
+
+Sample from previous project, automatic detection VDO using few convolution layers.
 
 ![Figure 10](https://github.com/jkaewprateep/Objects_edges_detection_wide_screen/blob/main/Figure_10.png "Figure 10")
