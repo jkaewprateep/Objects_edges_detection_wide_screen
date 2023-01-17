@@ -51,6 +51,17 @@ plt.imshow( tf.keras.utils.array_to_img( tf.squeeze( conv_image_2 ) ) )
 plt.show()
 ```
 
+| File name | Description |
+| --- | --- |
+| Figure_1.png | image scan regions |
+| Figure_5.png | resizes image |
+| Figure_6.png | edges enchangement image |
+| Figure_7.png | result 1 |
+| Figure_8.png | result 2 |
+| Figure_10.png | result 3 |
+| bandicam 2022-12-17%2011-31-54-783.gif | 301 |
+| README.md | readme file |
+
 ## Result ##
 
 #### Cell density and distance ####
