@@ -1,6 +1,28 @@
 # Objects_edges_detection_wide_screen
 To Study objects edges detection in wide screens.
 
+```
+FILE = "F:\\Pictures\\actor-Ploy\\005.jpg"
+image = tf.io.read_file( FILE )
+image = tf.io.decode_jpeg( image )
+image = o_image = o_image_2 = tf.keras.utils.img_to_array(image)
+
+o_image = tf.image.resize( o_image, [ 96, 96 ] )
+o_image = tf.expand_dims(o_image, 0)
+conv_image_2 = tf.keras.layers.Conv2D( 3, (2, 2), kernel_initializer=tf.ones_initializer(), 
+      bias_initializer=tf.ones_initializer(), strides=(1, 1), activation='linear', padding="same")( o_image )
+
+paddings = tf.constant([[0, 0], [3, 2], [3, 2], [0, 0]])
+conv_image_3 = tf.pad(conv_image_2, paddings, "CONSTANT")
+conv_image_3 = tf.image.resize( conv_image_3, [ 96, 96 ] )
+
+conv_image_2 = tf.image.resize( conv_image_2, [ 96, 96 ] )
+conv_image_2 = conv_image_3 - conv_image_2
+
+plt.imshow( tf.keras.utils.array_to_img( tf.squeeze( conv_image_2 ) ) )
+plt.show()
+```
+
 ## Result ##
 
 ![Figure 1](https://github.com/jkaewprateep/Objects_edges_detection_wide_screen/blob/main/Figure_1.png "Figure 1")
