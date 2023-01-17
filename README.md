@@ -16,6 +16,8 @@ To Study objects edges detection in wide screens, there are variables for object
 
 #### Object locator wide screen background ####
 
+See background output is min-max from few convilution networks. the bigger model we are using same as probided on the Internet but this one I experiments by myself to understand how dies it working as previous projects, see GIF image.
+
 ![Figure 1](https://github.com/jkaewprateep/Objects_edges_detection_wide_screen/blob/main/Figure_1.png "Figure 1")
 
 #### Resizes image ####
