@@ -1,5 +1,18 @@
 # Objects_edges_detection_wide_screen
-To Study objects edges detection in wide screens.
+
+To Study objects edges detection in wide screens, there are variables for object detection in wide screen without masksing or colours techniques.
+
+### Objectives ###
+
+1. Automatic edges and scales detection in wide backgrounds area.
+2. Easy implement, integrations and understanding with simple steps can be transfroms.
+
+### Problems ###
+
+1. Without masking do not compared to objects we know or target shape or dimension but only edges detection from elapsed of padding zero screen input and original image ( the same as velocity continuos action image can locates of the continuous movement but we do it on single image with padding zero )
+2. There are varieties of background, contrastivness, brightness and locations are not specific from random input image result variables input created.
+3. As the most image object locators they required loop or multiple of neurons layer with min-max or regularizations, multiple of convolution layers saved more time than grids but time taken to build.
+4. For certainty results we use initializer for kernel and bias, Tensorflow use strides that different from camera of devices they are using edges detection matrixes as in cannon or modren filters camera but strides do the same when you applied the correct strides number or tuple.
 
 #### Object locator wide screen background ####
 
