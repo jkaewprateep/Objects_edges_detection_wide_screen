@@ -22,12 +22,19 @@ See background output is min-max from few convilution networks. the bigger model
 
 #### Resizes image ####
 
+The fast way for removed detail of the image is resize them small and grow, we only need the image objects edges for next process results of regions from the image.
+
 ![Figure 5](https://github.com/jkaewprateep/Objects_edges_detection_wide_screen/blob/main/Figure_5.png "Figure 5")
 
 #### Convolution layers, image edges detection ####
 
+The image edges, we can detection of the object we assumed that oject we consider need to be attention in the picture, contrastiveness and continuous of colours image depths.
+
 ![Figure 6](https://github.com/jkaewprateep/Objects_edges_detection_wide_screen/blob/main/Figure_6.png "Figure 6")
 
+### Sample codes ###
+
+Load image, decode and tranfroms into array image object before dimensions and padding ( we try to create velocity image for subtracting from the original image as we do it in VDO input )
 
 ```
 FILE = "F:\\Pictures\\actor-Ploy\\005.jpg"
