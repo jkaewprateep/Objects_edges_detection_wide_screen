@@ -1,6 +1,19 @@
 # Objects_edges_detection_wide_screen
 To Study objects edges detection in wide screens.
 
+#### Object locator wide screen background ####
+
+![Figure 1](https://github.com/jkaewprateep/Objects_edges_detection_wide_screen/blob/main/Figure_1.png "Figure 1")
+
+#### Resizes image ####
+
+![Figure 5](https://github.com/jkaewprateep/Objects_edges_detection_wide_screen/blob/main/Figure_5.png "Figure 5")
+
+#### Convolution layers, image edges detection ####
+
+![Figure 6](https://github.com/jkaewprateep/Objects_edges_detection_wide_screen/blob/main/Figure_6.png "Figure 6")
+
+
 ```
 FILE = "F:\\Pictures\\actor-Ploy\\005.jpg"
 image = tf.io.read_file( FILE )
@@ -25,14 +38,14 @@ plt.show()
 
 ## Result ##
 
-![Figure 1](https://github.com/jkaewprateep/Objects_edges_detection_wide_screen/blob/main/Figure_1.png "Figure 1")
-
-![Figure 5](https://github.com/jkaewprateep/Objects_edges_detection_wide_screen/blob/main/Figure_5.png "Figure 5")
-
-![Figure 6](https://github.com/jkaewprateep/Objects_edges_detection_wide_screen/blob/main/Figure_6.png "Figure 6")
+#### Cell density and distance ####
 
 ![Figure 7](https://github.com/jkaewprateep/Objects_edges_detection_wide_screen/blob/main/Figure_7.png "Figure 7")
 
+#### Multiple objects edges randomness ####
+
 ![Figure 8](https://github.com/jkaewprateep/Objects_edges_detection_wide_screen/blob/main/Figure_8.png "Figure 8")
+
+#### Target object seekings ####
 
 ![Figure 10](https://github.com/jkaewprateep/Objects_edges_detection_wide_screen/blob/main/Figure_10.png "Figure 10")
